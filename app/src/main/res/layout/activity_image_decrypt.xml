@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#222325"
+    tools:context=".ImageDecryptActivity">
+
+    <TextView
+        android:id="@+id/txt_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true"
+        android:hint="Please Pick File First"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="50dp"
+        android:textColorHint="#858080"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnpick"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="pick file"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnimgdec"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="DECRYPT"
+        android:enabled="false"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/image_view"
+        android:src="@drawable/ic_baseline_image_24"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+
+</LinearLayout>

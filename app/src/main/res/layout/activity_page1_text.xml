@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#222325"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page1Text">
+
+    <Button
+        android:id ="@+id/encd"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text = "encryption"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <Button
+        android:id ="@+id/decd"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/encd"
+        android:text = "decryption"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

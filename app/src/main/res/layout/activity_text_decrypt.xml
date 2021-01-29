@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222325"
+    tools:context=".TextDecryptActivity">
+
+
+    <EditText
+        android:id="@+id/InputText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Enter Text To Decrypt"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#858080" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/InputText2"
+        android:hint="Enter Your Secret Key"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#858080"/>
+
+    <TextView
+        android:id = "@+id/OutputText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/password2"/>
+
+    <Button
+        android:id="@+id/btndec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/OutputText2"
+        android:text="decrypt"/>
+
+</RelativeLayout>

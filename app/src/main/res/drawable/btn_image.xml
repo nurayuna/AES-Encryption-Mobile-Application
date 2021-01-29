@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- this is defines button when clicked-->
+    <item android:drawable="@drawable/image_click"
+        android:state_pressed="true" />
+    <!-- this is defines button when focused -->
+    <item android:drawable="@drawable/image_click"
+        android:state_pressed="true" />
+    <!--this is defines button when normal -->
+    <item android:drawable="@drawable/image"/>
+
+</selector>
